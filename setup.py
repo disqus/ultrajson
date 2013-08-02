@@ -56,7 +56,7 @@ finally:
     f.close()    
     
 setup (name = 'ujson',
-       version = get_version(),
+       version = get_version() + '-disqus1',
        description = "Ultra fast JSON encoder and decoder for Python",
        long_description = README,
        ext_modules = [module1],
